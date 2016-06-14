@@ -8,7 +8,7 @@ Machine learning project, use of Python, Plotly and [Scikit-learn](http://scikit
 
 The goal of this project was to have an overview of machine learning. 
 
-We had to build & test algorithms, going from DQR to complex Data Analytic. Because we are the only computer scientist yet (and not statistician), we played a lot with functions and benchmarked algorithms, by using our feelings. That is why some of the algorithms used seems to be inappropriate considering the given dataset (Linear Lasso Regression for instance). But we understood better after coding the mathematical solutions.
+We had to build & test algorithms, going from DQR to complex Data Analytic. Because we are only computer scientist yet (and not statistician), we played a lot with functions and benchmarked algorithms, by using our feelings. That is why some of the algorithms used seems to be inappropriate considering the given datasets (Linear Lasso Regression for instance). But we understood better after coding the mathematical solutions and implications behind them.
 
 ## Arborecence of the project
 
@@ -23,7 +23,7 @@ We had to build & test algorithms, going from DQR to complex Data Analytic. Beca
     + V1: with standard scikit library,
     + V2: coded from scratch!
 
-For this first part, I worked with Valerian SALIOU (https://crisp.im).
+For this first part, I worked with Valerian SALIOU (founder at https://crisp.im).
 
 ### Modelling (second dataset)
 
@@ -81,10 +81,10 @@ For this second part, we had to work on the models themselves; we had to choose 
 
 ### The steps followed for this part were:
 
-1. First, use of the DQR code of first part to generate the DQR for the given dataset, and take decisions about problems detected in the set. In our case, the dataset was totally clean (no misses, no outliers, ... perfect!) and it was OK to use it as-it was.
+1. First, use of the DQR code of first part to generate the DQR for the given dataset, and take decisions about problems detected in the set. In our case, the dataset was totally clean (no misses, no outliers, ... perfect!) and it was OK to use it as it was.
 2. Implement models,
 3. Analyse confusion matrixes and accuracy results to choose the best algorithm,
-4. Conclude: why this model was better than this other one?
+4. Conclude: why _this_ model was better than _this other one_?
 
 We worked with a second dataset, which concerned the alcohol and the grades in Highschool. The goal was to predict the grade of a student, considering his weekly alcohol consumption.
 
@@ -185,4 +185,4 @@ Process finished with exit code 0
 
 # Going further
 
-If you are interested in my work, please read the reports we wrote about it, which are available in the repo: [DQR report](DQR.pdf), [Modelling report](MODELLING.pdf)
+If you are interested in my work, please read the reports we wrote about it, which are available in the repo: [DQR report](DQR.pdf), [Modelling report](MODELLING.pdf).
