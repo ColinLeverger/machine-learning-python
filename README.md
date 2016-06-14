@@ -75,8 +75,6 @@ For this first assignment, we worked with a first dataset; the goal was to predi
 
 For this first task we didn’t build any models; the goal was just to create & manipulate a DQR.
 
-mettre les deux DQR en screenshots
-
 ## Second part: modelling & predictions
 
 For this second part, we had to work on the models themselves; we had to choose three models and we had to test them with the data, to choose the most appropriate (and try to explain why it was the most appropriate).
