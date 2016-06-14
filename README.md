@@ -66,7 +66,7 @@ mettre une matrix de confusion
 
 Code output example:
 
-'''
+```
 ###########################
 ### Model Decision Tree ###
 ###########################
@@ -151,7 +151,7 @@ Variance score for Lasso: 0.64
 R2 score for Lasso: 0.80
 
 Process finished with exit code 0
-'''
+```
 
 # Going further
 
