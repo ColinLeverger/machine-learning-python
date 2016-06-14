@@ -34,7 +34,7 @@ For this first part, I worked with Valerian SALIOU (https://crisp.im).
 
 For this second part, I worked with Anais GALISSON.
 
-# Focus on the project & used methods
+# Focus on the project & methods used
 
 ## First part: generate the Data Quality Report
 
@@ -90,12 +90,13 @@ For this second part, we had to work on the models themselves; we had to choose 
 
 We worked with a second dataset, which concerned the alcools and the grades in Highschool. The goal was to predict the grade of a student, considering his weekly alcoohol consumtion.
 
-### Results of an execution...
+### Confusion matrixes
 
-mettre une matrix de confusion
+To observe the accuracy of an execution, we have used confusions matrixes (see below)
 
+![Confusion matrix for the random forest](MODELLING/screenshots/random_forest.png)
 
-Code output example:
+### Code output example
 
 ```
 ###########################
@@ -186,4 +187,4 @@ Process finished with exit code 0
 
 # Going further
 
-If you are interested about my work, please read the reports we wrote about it, which are available in: lien rapport
+If you are interested about my work, please read the reports we wrote about it, which are available in the repo: [DQR report](DQR.pdf), [Modelling report](MODELLING.pdf)
