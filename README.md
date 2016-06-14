@@ -8,19 +8,19 @@ Machine learning project, use of Python, Plotly and [Scikit-learn](http://scikit
 
 The goal of this project was to have an overview of machine learning. 
 
-We had to build & test algorithms, going from DQR to complex Data Analitic. Because we are only computer scientist yet (and not statistician), we played a lot with functions and benchmarked algorithms, by using our feelings. That is why some of the algorithms used seems to be inappropriate considering the given dataset (Linear Lasso Regression for instance). But we understood better after coding the mathematical solutions.
+We had to build & test algorithms, going from DQR to complex Data Analytic. Because we are the only computer scientist yet (and not statistician), we played a lot with functions and benchmarked algorithms, by using our feelings. That is why some of the algorithms used seems to be inappropriate considering the given dataset (Linear Lasso Regression for instance). But we understood better after coding the mathematical solutions.
 
 ## Arborecence of the project
 
 ### Data Quality Report (first dataset)
 
 - "./data": data used to generate the DQR,
-- "./outputs": outputs of algorithm:
+- "./outputs": outputs of algorithms:
     + plotly HTML files with bars/graphs/hists...
     + DQR in .csv format.
 - "./screenshots": two screenshots of the plotly HTML graphs generated,
 - "./DQR-V1.py" and "./DQR-V2.py": code used to generate DQR, two versions:
-    + V1: with standards scikit library,
+    + V1: with standard scikit library,
     + V2: coded from scratch!
 
 For this first part, I worked with Valerian SALIOU (https://crisp.im).
@@ -28,9 +28,9 @@ For this first part, I worked with Valerian SALIOU (https://crisp.im).
 ### Modelling (second dataset)
 
 - "./code": functions and code used in "./main.py"; generate models, tests, benchmarks, clean data...
-- "./data": dataset used,
+- "./data": datasets used,
 - "./dqr_outputs": outputs and graphs for DQR,
-- "./main.py": code that will orchestrate the benchmarks of differents algorithms.
+- "./main.py": code that will orchestrate the benchmarks of different algorithms.
 
 For this second part, I worked with Anais GALISSON.
 
@@ -38,9 +38,9 @@ For this second part, I worked with Anais GALISSON.
 
 ## First part: generate the Data Quality Report
 
-The DQR-generation step is an important part of the Data analytic process; with a clean report, it is possible de have insights about the data, to detect problems (missing values, strange values, outliers, etc.) and to make decision about these problems.
+The DQR-generation step is an important part of the Data analytic process; with a clean report, it is possible to have insights about the data, to detect problems (missing values, strange values, outliers, etc.) and to make decision about these problems.
 
-For this first assignment, we worked with a first dataset; the goal was to predict the salary of a person, consideing his age, the job of his parents, his level of education, etc.
+For this first assignment, we worked with a first dataset; the goal was to predict the salary of a person, considering his age, the job of his parents, his level of education, etc.
 
 ### DQR for Categorical Features
 
@@ -73,26 +73,26 @@ For this first assignment, we worked with a first dataset; the goal was to predi
 
 ### Note
 
-For this first task we didn't build any models; the goal was just to create & manipulate a DQR.
+For this first task we didn’t build any models; the goal was just to create & manipulate a DQR.
 
 mettre les deux DQR en screenshots
 
 ## Second part: modelling & predictions
 
-For this second part, we had to work on the models themselves; we had to choose three models and we had to test them with the data, to chose the most appropriate (and try to explain why it was the most appropriate).
+For this second part, we had to work on the models themselves; we had to choose three models and we had to test them with the data, to choose the most appropriate (and try to explain why it was the most appropriate).
 
 ### The steps followed for this part were:
 
 1. First, use of the DQR code of first part to generate the DQR for the given dataset, and take decisions about problems detected in the set. In our case, the dataset was totally clean (no misses, no outliers, ... perfect!) and it was OK to use it as-it was.
 2. Implement models,
-3. Analyse confusion matrixes and accuracy results to chose the best algorithm,
+3. Analyse confusion matrixes and accuracy results to choose the best algorithm,
 4. Conclude: why this model was better than this other one?
 
-We worked with a second dataset, which concerned the alcools and the grades in Highschool. The goal was to predict the grade of a student, considering his weekly alcoohol consumtion.
+We worked with a second dataset, which concerned the alcohol and the grades in Highschool. The goal was to predict the grade of a student, considering his weekly alcohol consumption.
 
 ### Confusion matrixes
 
-To observe the accuracy of an execution, we have used confusions matrixes (see below)
+To observe the accuracy of an execution, we have used confusion matrixes (see below)
 
 ![Confusion matrix for the random forest](MODELLING/screenshots/random_forest.png)
 
@@ -187,4 +187,4 @@ Process finished with exit code 0
 
 # Going further
 
-If you are interested about my work, please read the reports we wrote about it, which are available in the repo: [DQR report](DQR.pdf), [Modelling report](MODELLING.pdf)
+If you are interested in my work, please read the reports we wrote about it, which are available in the repo: [DQR report](DQR.pdf), [Modelling report](MODELLING.pdf)
