@@ -36,11 +36,42 @@ For this second part, I worked with Anais GALISSON.
 
 # Focus on the project & used methods
 
-## First part: generate the Data Quality Report!
+## First part: generate the Data Quality Report
 
 The DQR-generation step is an important part of the Data analytic process; with a clean report, it is possible de have insights about the data, to detect problems (missing values, strange values, outliers, etc.) and to make decision about these problems.
 
 For this first assignment, we worked with a first dataset; the goal was to predict the salary of a person, consideing his age, the job of his parents, his level of education, etc.
+
+### DQR for Categorical Features
+
+[DQR for Categorical Features](DQR/outputs/DQR-CategoricalFeatures.csv)
+
+|   | Feature        | Count | % Miss.            | Card. | Mode               | Mode Count | Mode %             | 2nd Mode         | 2nd Mode Count | 2nd Mode %         | 
+|---|----------------|-------|--------------------|-------|--------------------|------------|--------------------|------------------|----------------|--------------------| 
+| 0 | workclass      | 29205 | 5.607627666451198  | 8     | Private            | 21576      | 73.87776065742167  | Self-emp-not-inc | 2406           | 8.238315356959426  | 
+| 1 | education      | 30940 | 0.0                | 16    | HS-grad            | 9976       | 32.24305106658048  | Some-college     | 6938           | 22.424046541693603 | 
+| 2 | marital-status | 30940 | 0.0                | 7     | Married-civ-spouse | 14201      | 45.898513251454425 | Never-married    | 10167          | 32.86037491919845  | 
+| 3 | occupation     | 29198 | 5.630252100840338  | 14    | Prof-specialty     | 3932       | 13.466675799712311 | Craft-repair     | 3887           | 13.312555654496883 | 
+| 4 | relationship   | 30940 | 0.0                | 6     | Husband            | 12496      | 40.387847446670975 | Not-in-family    | 7904           | 25.546218487394956 | 
+| 5 | race           | 30940 | 0.0                | 5     | White              | 26442      | 85.46218487394958  | Black            | 2965           | 9.583063994828702  | 
+| 6 | sex            | 30940 | 0.0                | 2     | Male               | 20705      | 66.91984486102133  | Female           | 10235          | 33.08015513897867  | 
+| 7 | native-country | 30386 | 1.7905623787976777 | 41    | United-States      | 27719      | 91.22293161324293  | Mexico           | 607            | 1.9976304877246098 | 
+| 8 | target         | 30940 | 0.0                | 2     | <=50K              | 23506      | 75.97285067873302  | >50K             | 7434           | 24.02714932126697  | 
+
+### DQR for Continuous Features
+
+[DQR for Continuous Features](DQR/outputs/DQR-ContinuousFeatures.csv)
+
+|                | Count   | % Miss. | Card. | Min     | 1st Qrt. | Mean               | Median   | 3rd Qrt. | Max       | Std. Dev.          | 
+|----------------|---------|---------|-------|---------|----------|--------------------|----------|----------|-----------|--------------------| 
+| age            | 30940.0 | 0.0     | 72    | 17.0    | 28.0     | 38.56076276664512  | 37.0     | 48.0     | 90.0      | 13.639403068811818 | 
+| fnlwgt         | 30940.0 | 0.0     | 20880 | 12285.0 | 117849.0 | 189786.4014221073  | 178384.0 | 237318.0 | 1484705.0 | 105406.39438610482 | 
+| education-num  | 30940.0 | 0.0     | 16    | 1.0     | 9.0      | 10.08125404007757  | 10.0     | 12.0     | 16.0      | 2.5699668370230184 | 
+| capital-gain   | 30940.0 | 0.0     | 119   | 0.0     | 0.0      | 1081.8129928894634 | 0.0      | 0.0      | 99999.0   | 7443.773041287165  | 
+| capital-loss   | 30940.0 | 0.0     | 91    | 0.0     | 0.0      | 86.56997414350356  | 0.0      | 0.0      | 4356.0    | 401.7060231857947  | 
+| hours-per-week | 30940.0 | 0.0     | 93    | 1.0     | 40.0     | 40.408920491273435 | 40.0     | 45.0     | 99.0      | 12.336944975043277 | 
+
+### Note
 
 For this first task we didn't build any models; the goal was just to create & manipulate a DQR.
 
