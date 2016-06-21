@@ -1,4 +1,4 @@
-# Colin LEVERGER, Valerian SALIOU
+# Colin LEVERGER
 # Data Quality Report generation
 # V1: with transpose & describe functions
 import pandas
