@@ -1,4 +1,4 @@
-# Colin LEVERGER, Valerian SALIOU
+# Valerian SALIOU
 # Data Quality Report generation
 # V2: from scratch!
 import pandas, numpy, operator, copy
